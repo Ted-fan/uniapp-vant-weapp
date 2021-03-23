@@ -1,31 +1,23 @@
-# ---> Java
-*.class
-*.iml
+.DS_Store
+node_modules/
+unpackage/
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.project
 .idea
-target
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# ---> vue
-node_modules
-package-lock.json
-
-# ---> ionic
-node_modules
-
-# ---> mini program
-node_modules
-package-lock.json
-dist
-
-api/dlanqi-cloud-api/logs/
-
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
