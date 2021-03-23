@@ -1,0 +1,18 @@
+{
+    "uni-app": {
+        "scripts": {
+            "mp-wx-base": { 
+                "title":"base mini program", 
+                "env": { 
+                    "UNI_PLATFORM": "mp-weixin" 
+                },
+                "define": { 
+                    "MP-WX-BASE": true 
+                }
+            }
+        }
+    }
+}
+
+
+

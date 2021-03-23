@@ -1,0 +1,13 @@
+.bg-banner {
+    height: 300px;
+    width: 100%;
+    background: url('http://dell.dlanqi.com:10002/files/20210315/20210315132706_604f60aae4b0e8faae235695.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-title{
+    margin: 8px 8px 8px 16px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+}

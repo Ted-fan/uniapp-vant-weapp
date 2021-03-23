@@ -1,0 +1,81 @@
+/* 自定义全局css */
+.app-container {
+    height: 100%;
+    width: 100%;
+}
+
+.aq-text-size-xsmall {
+    transform: scale(0.8);
+    font-size: 3.2vw !important;
+}
+
+.aq-text-size-small {
+    font-size: 3.4vw !important;
+}
+
+.aq-text-size-normal {
+    font-size: 3.7vw !important;
+}
+
+.aq-text-size-medium {
+    font-size: 4.3vw !important;
+}
+
+.aq-text-size-big {
+    font-size: 4.8vw !important;
+}
+
+.aq-text-size-large {
+    font-size: 6.4vw !important;
+}
+
+.aq-text-size-xlarge {
+    font-size: 8vw !important;
+}
+
+.aq-text-size-xxlarge {
+    font-size: 14vw !important;
+}
+
+.aq-text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.aq-text-ellipsis-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.aq-text-overflow {
+    overflow-x: auto;
+    text-overflow: inherit;
+    white-space: nowrap;
+}
+
+.aq-vertical-center {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.aq-vertical-space-between {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.aq-vertical-end {
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+.aq-vertical-middle {
+    display: flex !important;
+    align-items: center !important;
+}

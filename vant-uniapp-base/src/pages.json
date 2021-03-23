@@ -1,0 +1,46 @@
+{
+  "pages": [{
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/tab/tab",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "pages/subPackage",
+    "pages": [{
+      "path": "subIndex/subIndex",
+      "style": {
+        "navigationBarTitleText": "分包页面"
+      }
+    }]
+  }],
+  "preloadRule": {
+    "pages/subPackage/subIndex/subIndex": {
+      "network": "all",
+      "packages": ["__APP__"]
+    }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    // "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-tabbar": "/wxcomponents/vant/tabbar/index",
+      "van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-row": "/wxcomponents/vant/row/index",
+      "van-col": "/wxcomponents/vant/col/index",
+      "van-image": "/wxcomponents/vant/image/index",
+      "van-field": "/wxcomponents/vant/field/index"
+    }
+  }
+}
